@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class _10_CondicionalIF_1 {
+public class _10_CondicionalIF {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
