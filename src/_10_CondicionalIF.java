@@ -24,6 +24,8 @@ public class _10_CondicionalIF {
 		else if (edad < 50) {System.out.println("Te conservas bien.");}
 		else if (edad < 70) {System.out.println("Jubilao y a vivir.");}
 		else {System.out.println("Quina vellea farem...");}
+		
+		entrada.close();
 	}
 		
 

@@ -23,6 +23,8 @@ public class _11_Condicional_OperadorTernario {
 		String resultado = (edad < 18) ? "Eres menor de edad." : "Eres mayor de edad.";
 		
 		System.out.println(resultado);
+		
+		entrada.close();
 
 	}
 

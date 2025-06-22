@@ -63,6 +63,8 @@ Scanner entrada = new Scanner(System.in);
 		default: 
 			System.out.println("Número de mes incorrecto.");
 		}
+		
+		entrada.close();
 	}
 
 }
