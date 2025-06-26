@@ -17,8 +17,10 @@ public class pesoAlturaJOptionPane {
 			} while ( (!genero.equalsIgnoreCase("M")) && (!genero.equalsIgnoreCase("H")) );
 		
 		altura = Integer.parseInt(JOptionPane.showInputDialog("Por favor, introduce tu altura en centímetros"));
+		
 		pesoM = altura - 120;
 		pesoH = altura - 110; 
+		
 		if (genero.equalsIgnoreCase("M")) {
 			JOptionPane.showMessageDialog(null, "Para una mujer que mide " + altura + "cms, el peso ideal es " + pesoM + " kgs.");
 			}
