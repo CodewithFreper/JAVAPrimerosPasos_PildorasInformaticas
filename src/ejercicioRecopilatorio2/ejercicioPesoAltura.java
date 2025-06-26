@@ -16,5 +16,20 @@ public class ejercicioPesoAltura {
 		System.out.println("Por favor,introduce tu sexo (H/M):");
 		sexo = lector.nextLine();
 		
+		System.out.println("Por favor, introduce tu altura en centímetros:");
+		altura = lector.nextInt();
+		
+		if (sexo.equalsIgnoreCase("M")) {
+			peso = altura - 120;
+			System.out.println("Tu peso ideal sería: " + peso + " kgs.");
+		}
+		else if (sexo.equalsIgnoreCase("H")) {
+			peso = altura - 110;
+			System.out.println("Tu peso ideal sería: " + peso + " kgs.");
+		}
+		else {
+			System.out.println("Por favor, introduce un valor correcto. (H/M)");
+		}
+
 	}
 }
